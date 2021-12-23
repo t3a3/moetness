@@ -7,13 +7,14 @@
     <nav class="global_nav" id="global_nav">
         <ul class="global_nav_list">
             <li class="global_nav_item"><a href="index.php" style="text-transform: uppercase;">home</a></li>
-            <li class="global_nav_item"><a href="">コンセプト</a></li>
+            <li class="global_nav_item"><a href="test.php">コンセプト</a></li>
             <li class="global_nav_item"><a href="">キャラクター</a></li>
             <li class="global_nav_item"><a href="">システム</a></li>
             <li class="global_nav_item"><a href="">ギャラリー</a></li>
             <li class="global_nav_item"><a href="">製品情報</a></li>
             <li class="global_nav_item"><a href="form.php">お問い合わせ</a></li>
             <li class="global_nav_item"><a href="" style="text-transform: uppercase;">news</a></li>
+            <li class="global_nav_item"><a href="users_input.php">ユーザー登録</a></li>
         </ul>
     </nav>
 </header>
