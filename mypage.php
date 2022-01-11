@@ -1,8 +1,3 @@
-<?php
-session_start();
-include('functions.php');
-check_session_id();
-?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -12,17 +7,15 @@ check_session_id();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>ホーム画面</title>
+    <title>マイページ</title>
 </head>
 
 <body>
-    <!------------ ▼ Header ------------>
-    <?php include('header.php'); ?>
     <!------------ ▼ Main ------------>
     <main>
-        <div class="logo_box">
-            <img src="img/logo.png" alt="logo">
-        </div>
+        <h1><?= $_SESSION['users_name'] ?>さん、ログイン成功です!!</h1>
+        <a href="index.php">ホームに戻る</a>
+        <a href="users_logout.php">ログアウト</a>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>

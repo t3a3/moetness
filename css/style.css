@@ -149,8 +149,13 @@ form.php
   font-size: 20px;
   cursor: pointer;
 }
-
-
+/********************************●
+user_login_form.php
+●********************************/
+.targetLink {
+  padding-top: 20px;
+  text-align: center;
+}
 
 /*◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
 レスポンシブCSS(max-width: 750px)

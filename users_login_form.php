@@ -25,7 +25,7 @@
                 <p class="Form-Item-Label">
                     <span class="Form-Item-Label-Required">必須</span>メールアドレス
                 </p>
-                <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com" name="users_email">
+                <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com" name="users_email" required>
             </div>
             <!--パスワード-->
             <div class="Form-Item">
@@ -38,11 +38,12 @@
             <div class="Form-Btn_box">
                 <input type="submit" class="Form-Btn" value="送信する">
             </div>
+            <div class="targetLink">
+                <a href="users_input.php">新規ユーザー登録</a>
+            </div>
         </form>
     </div>
-    <div>
-        <a href="users_input.php">新規ユーザー登録</a>
-    </div>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
