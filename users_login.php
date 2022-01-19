@@ -18,6 +18,7 @@ if (password_verify($_POST['users_password'], $member['users_password'])) {
 
     //DBのユーザー情報をセッションに保存
     $_SESSION = array();
+    $_SESSION['user_id'] = $member['id'];
     $_SESSION['session_id'] = session_id();
     $_SESSION['users_name'] = $member['users_name'];
     $_SESSION['users_password'] = $member['users_password'];
