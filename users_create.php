@@ -27,7 +27,7 @@ if ($stmt->fetchColumn()) {
     $link = '<a href="users_input.php">戻る</a>';
 } else {
 
-    $sql = 'INSERT INTO users_table(id, users_name, users_email, users_password,created_at, updated_at) VALUES(NULL, :users_name,:users_email,:users_password,now(),  now())';
+    $sql = 'INSERT INTO users_table(id, users_name, users_email, users_password,is_admin, is_deleted,created_at, updated_at) VALUES(NULL, :users_name,:users_email,:users_password,0,0,now(),  now())';
 
     $stmt = $pdo->prepare($sql);
 
